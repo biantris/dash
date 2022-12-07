@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <img src="https://user-images.githubusercontent.com/65451957/206251166-f0d923a6-18d0-400c-845b-065092c9b29a.png" />
+  
+  <p>Application for users to consult the list of all assets 🔧💻🚜</p>
+  
+  <a href="https://twitter.com/intent/follow?screen_name=biantris_">
+     <img src="https://img.shields.io/twitter/follow/biantris_?style=social&logo=twitter"
+      alt="follow on Twitter">
+  </a>
 
-First, run the development server:
+</div>
 
-```bash
-npm run dev
+### Stack
+
+#### ➜ Root
+- [x] Linter (Eslint)
+- [ ] Prettier
+- [ ] Commitlint
+- [ ] Editorconfig
+- [ ] Lint staged
+- [ ] Pre-commit
+- [ ] Dockerfile
+- [ ] Dependabot
+- [ ] CI/CD w/ Github Actions
+
+#### ➜ Web
+- [x] TypeScript
+- [x] Nextjs v13
+- [ ] Fetch API
+- [ ] Jest + Testing Library
+- [ ] Storybook
+
+### Project architecture
+`🚧 wip 🚧`
+
+### Getting Started
+- clone this repo
+
+```sh
+# install dependencies
+> yarn
 # or
-yarn dev
+> yarn install
+
+# copy .env file
+> cp .env.local .env
+
+# start project
+> yarn dev
+
+# open in
+http://localhost:3000
 ```
+### Run Storybook
+`🚧 wip 🚧`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run w/ Docker
+`🚧 wip 🚧`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### APIs
+- [ ] Get
+- [ ] GetAll
+- [ ] Post
+- [ ] Update
+- [ ] Delete
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### GraphQL
+`🚧 wip 🚧`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## demo
+`🚧 wip 🚧`
