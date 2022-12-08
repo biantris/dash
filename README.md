@@ -45,9 +45,6 @@
 # or
 > yarn install
 
-# copy .env file
-> cp .env.local .env
-
 # start project
 > yarn dev
 
