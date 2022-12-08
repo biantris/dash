@@ -43,6 +43,8 @@ async function getData() {
   return res.json();
 }
 
+const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+
 export const data = {
   labels,
   datasets: [
