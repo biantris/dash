@@ -27,7 +27,9 @@
 #### ➜ Web
 - [x] TypeScript
 - [x] Nextjs v13
-- [ ] Fetch API
+- [x] Fetch API
+- [x] Ant Design UI
+- [x] react-chartjs-2
 - [ ] Jest + Testing Library
 - [ ] Storybook
 
