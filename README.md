@@ -15,14 +15,12 @@
 
 #### ➜ Root
 - [x] Linter (Eslint)
-- [ ] Prettier
-- [ ] Commitlint
-- [ ] Editorconfig
-- [ ] Lint staged
-- [ ] Pre-commit
-- [ ] Dockerfile
-- [ ] Dependabot
-- [ ] CI/CD w/ Github Actions
+- [x] Prettier
+- [x] Editorconfig
+- [x] Lint staged
+- [x] Pre-commit
+- [x] Dependabot
+- [x] CI/CD w/ Github Actions
 
 #### ➜ Web
 - [x] TypeScript
