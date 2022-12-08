@@ -11,7 +11,7 @@
 
 </div>
 
-### Stack
+## Stack
 
 #### ➜ Root
 - [x] Linter (Eslint)
@@ -33,10 +33,10 @@
 - [ ] Jest + Testing Library
 - [ ] Storybook
 
-### Project architecture
+## Project architecture
 `🚧 wip 🚧`
 
-### Getting Started
+## Getting Started
 - clone this repo
 
 ```sh
@@ -51,8 +51,24 @@
 # open in
 http://localhost:3000
 ```
-### Run Storybook
+## Run Storybook
 `🚧 wip 🚧`
+
+## Engine Locking
+
+We would like for all developers working on this project to use the same Node engine and package manager we are using.
+
+- .nvmrc - Will tell other uses of the project which version of Node is used
+- .npmrc - Will tell other users of the project which package manager is used
+
+## Testing
+
+`🚧 wip 🚧`
+
+## Git Hooks
+
+- [Husky](https://typicode.github.io/husky/#/): Husky is a tool for running scripts at different stages of the git process, for example add, commit, push, etc. We would like to be able to set certain conditions, and only allow things like commit and push to succeed if our code meets those conditions, presuming that it indicates our project is of acceptable quality.
+
 
 ## demo
 🔗 https://dash-biantris.vercel.app/
