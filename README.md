@@ -54,18 +54,5 @@ http://localhost:3000
 ### Run Storybook
 `🚧 wip 🚧`
 
-### Run w/ Docker
-`🚧 wip 🚧`
-
-### APIs
-- [ ] Get
-- [ ] GetAll
-- [ ] Post
-- [ ] Update
-- [ ] Delete
-
-### GraphQL
-`🚧 wip 🚧`
-
 ## demo
-`🚧 wip 🚧`
+🔗 https://dash-biantris.vercel.app/
