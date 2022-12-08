@@ -1,11 +1,7 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import { usePathname} from 'next/navigation'
+import Link from 'next/link';
 
-export default function NavLink({ href, children}: any) {
-    const pathname = usePathname();
-    console.log('pathname', pathname)
-
-    return <Link href={href}>{children}</Link>
+export default function NavLink({ href, children }: any) {
+  return <Link href={href}>{children}</Link>;
 }
