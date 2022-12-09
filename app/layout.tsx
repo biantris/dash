@@ -45,22 +45,22 @@ export default function RootLayout({ children }: { children: any }) {
                   {
                     key: '2',
                     icon: <SlidersOutlined />,
-                    label: <NavLink href="/assets">Assets</NavLink>,
+                    label: <NavLink href="/assets">Ativos</NavLink>,
                   },
                   {
                     key: '3',
                     icon: <TeamOutlined />,
-                    label: <NavLink href="/users">Users</NavLink>,
+                    label: <NavLink href="/users">Usuários</NavLink>,
                   },
                   {
                     key: '4',
                     icon: <DeploymentUnitOutlined />,
-                    label: <NavLink href="/units">Units</NavLink>,
+                    label: <NavLink href="/units">Unidades</NavLink>,
                   },
                   {
                     key: '5',
                     icon: <UnorderedListOutlined />,
-                    label: <NavLink href="/companies">Company</NavLink>,
+                    label: <NavLink href="/companies">Empresas</NavLink>,
                   },
                 ]}
               />
