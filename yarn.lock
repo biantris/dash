@@ -374,10 +374,10 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^5.0.4:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-5.0.4.tgz#b3f8f973ab11ab5ab30883ad46e4f1812bf30aa1"
-  integrity sha512-SbMmMTpenY8OfNABJl9/xEGhLP+2mQBbFxelT8ySFb7BR6KwsaVbz6BJOaBWmHBwNq86gXQWJtouQ9Znb6p0RA==
+antd@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-5.0.5.tgz#16f0ade8b2d2ea9f7bd47a8e0af81884dc504a7d"
+  integrity sha512-8jWUjZ65urNHZPg9/Ywa9V0PlNfqjhewKgSPF4nraN9X5v434lDJkRBQGN7meNixQ6aM2B/JhXPm9UaJ/tAQmA==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/cssinjs" "^1.0.0"
@@ -415,7 +415,7 @@ antd@^5.0.4:
     rc-steps "~6.0.0-alpha.2"
     rc-switch "~4.0.0"
     rc-table "~7.26.0"
-    rc-tabs "~12.4.1"
+    rc-tabs "~12.4.2"
     rc-textarea "~0.4.5"
     rc-tooltip "~5.2.0"
     rc-tree "~5.7.0"
@@ -423,7 +423,7 @@ antd@^5.0.4:
     rc-trigger "^5.2.10"
     rc-upload "~4.3.0"
     rc-util "^5.25.2"
-    scroll-into-view-if-needed "^2.2.25"
+    scroll-into-view-if-needed "^3.0.3"
     shallowequal "^1.1.0"
 
 argparse@^2.0.1:
@@ -584,10 +584,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-compute-scroll-into-view@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/compute-scroll-into-view/-/compute-scroll-into-view-1.0.20.tgz#1768b5522d1172754f5d0c9b02de3af6be506a43"
-  integrity sha512-UCB0ioiyj8CRjtrvaceBLqqhZCVP+1B8+NWQhmdsm0VXOJtobBCf1dBQmebCCo34qZmUwZfIH2MZLqNHazrfjg==
+compute-scroll-into-view@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/compute-scroll-into-view/-/compute-scroll-into-view-2.0.2.tgz#ac5cc71ca833884866e581a82d8558a6ed7ee877"
+  integrity sha512-W+4Iti92hktsTtNPNeRM1vE0JdqCBk5qIabRafpr5pGrQhQ+xzCv0NGnFzTCKmW4yGLm9Aovbw8YNxloe2z9tQ==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -2008,7 +2008,7 @@ rc-table@~7.26.0:
     rc-util "^5.22.5"
     shallowequal "^1.1.0"
 
-rc-tabs@~12.4.1:
+rc-tabs@~12.4.2:
   version "12.4.2"
   resolved "https://registry.yarnpkg.com/rc-tabs/-/rc-tabs-12.4.2.tgz#487a1b3f8d8cf0bfc121224013dab00d4a8e0532"
   integrity sha512-FFlGwuTjQUznWzJtyhmHc6KAp5lRQFxKUv9Aj1UtsOYe2e7WGmuzcrd+/LQchuPe0VjhaZPdGkmFGcqGqNO6ow==
@@ -2209,12 +2209,12 @@ scheduler@^0.23.0:
   dependencies:
     loose-envify "^1.1.0"
 
-scroll-into-view-if-needed@^2.2.25:
-  version "2.2.31"
-  resolved "https://registry.yarnpkg.com/scroll-into-view-if-needed/-/scroll-into-view-if-needed-2.2.31.tgz#d3c482959dc483e37962d1521254e3295d0d1587"
-  integrity sha512-dGCXy99wZQivjmjIqihaBQNjryrz5rueJY7eHfTdyWEiR4ttYpsajb14rn9s5d4DY4EcY6+4+U/maARBXJedkA==
+scroll-into-view-if-needed@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.0.3.tgz#57256bef78f3c3c288070d2aaa63cf547aa11e70"
+  integrity sha512-QoCH0lVw0tbA7Rl6sToH7e1tO3n95Oi6JgBgC8hEpNNZUC91MfasJ/4E1ZdbzGueNDZ+Y7ObfRaelKUgTyPbJA==
   dependencies:
-    compute-scroll-into-view "^1.0.20"
+    compute-scroll-into-view "^2.0.2"
 
 semver@^6.3.0:
   version "6.3.0"
