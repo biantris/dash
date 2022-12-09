@@ -16,7 +16,7 @@ export default async function Page() {
               </p>
               <img
                 src={item.image}
-                style={{ width: 250, height: 250, padding: 10 }}
+                style={{ width: 280, height: 250, padding: 10 }}
               />
               <p>
                 <b>id:</b> {item.id}
