@@ -12,9 +12,10 @@ import NavLink from './nav-link';
 
 import 'antd/dist/reset.css';
 
-const { Header, Sider, Content, Footer } = Layout;
+const { Sider, Content, Footer } = Layout;
 
 import { Typography } from 'antd';
+import { HeaderComponent } from '../components/header';
 
 const { Link } = Typography;
 
@@ -67,7 +68,7 @@ export default function RootLayout({ children }: { children: any }) {
             </nav>
           </Sider>
           <Layout className="site-layout">
-            <Header style={{ background: colorBgContainer }} />
+            <HeaderComponent />
             <Content
               style={{
                 margin: '24px 16px',
