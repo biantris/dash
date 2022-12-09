@@ -8,7 +8,6 @@ import {
   UnorderedListOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu, theme } from 'antd';
-import React from 'react';
 import NavLink from './nav-link';
 
 import 'antd/dist/reset.css';
@@ -19,11 +18,7 @@ import { Typography } from 'antd';
 
 const { Link } = Typography;
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: any }) {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
@@ -77,8 +72,9 @@ export default function RootLayout({
               style={{
                 margin: '24px 16px',
                 padding: 24,
-                height: '49.7rem',
+                height: '52rem',
                 background: colorBgContainer,
+                overflow: 'auto',
               }}
             >
               {children}
