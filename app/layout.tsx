@@ -30,42 +30,39 @@ export default function RootLayout({ children }: { children: any }) {
       <body>
         <Layout>
           <Sider trigger={null}>
-            <div className="logo" />
-            <nav>
-              <Menu
-                theme="dark"
-                mode="inline"
-                style={{ marginTop: '3rem' }}
-                defaultSelectedKeys={['1']}
-                items={[
-                  {
-                    key: '1',
-                    icon: <PieChartOutlined />,
-                    label: <NavLink href="/">Dashboard</NavLink>,
-                  },
-                  {
-                    key: '2',
-                    icon: <SlidersOutlined />,
-                    label: <NavLink href="/assets">Ativos</NavLink>,
-                  },
-                  {
-                    key: '3',
-                    icon: <TeamOutlined />,
-                    label: <NavLink href="/users">Usuários</NavLink>,
-                  },
-                  {
-                    key: '4',
-                    icon: <DeploymentUnitOutlined />,
-                    label: <NavLink href="/units">Unidades</NavLink>,
-                  },
-                  {
-                    key: '5',
-                    icon: <UnorderedListOutlined />,
-                    label: <NavLink href="/companies">Empresas</NavLink>,
-                  },
-                ]}
-              />
-            </nav>
+            <Menu
+              theme="dark"
+              mode="inline"
+              style={{ marginTop: '3rem' }}
+              defaultSelectedKeys={['1']}
+              items={[
+                {
+                  key: '1',
+                  icon: <PieChartOutlined />,
+                  label: <NavLink href="/">Dashboard</NavLink>,
+                },
+                {
+                  key: '2',
+                  icon: <SlidersOutlined />,
+                  label: <NavLink href="/assets">Ativos</NavLink>,
+                },
+                {
+                  key: '3',
+                  icon: <TeamOutlined />,
+                  label: <NavLink href="/users">Usuários</NavLink>,
+                },
+                {
+                  key: '4',
+                  icon: <DeploymentUnitOutlined />,
+                  label: <NavLink href="/units">Unidades</NavLink>,
+                },
+                {
+                  key: '5',
+                  icon: <UnorderedListOutlined />,
+                  label: <NavLink href="/companies">Empresas</NavLink>,
+                },
+              ]}
+            />
           </Sider>
           <Layout className="site-layout">
             <HeaderComponent />
