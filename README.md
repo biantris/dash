@@ -70,5 +70,5 @@ We would like for all developers working on this project to use the same Node en
 - [Husky](https://typicode.github.io/husky/#/): Husky is a tool for running scripts at different stages of the git process, for example add, commit, push, etc. We would like to be able to set certain conditions, and only allow things like commit and push to succeed if our code meets those conditions, presuming that it indicates our project is of acceptable quality.
 
 
-## demo
+## Demo
 🔗 https://dash-biantris.vercel.app/
