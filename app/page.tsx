@@ -1,9 +1,11 @@
 'use client';
 import { Card, Col, Row, Typography } from 'antd';
+import { BarChart } from '../components/barChart';
 import { CardAsset } from '../components/cards/cardAsset';
 import { CardCompany } from '../components/cards/cardCompany';
 import { CardUnit } from '../components/cards/cardUnit';
 import { CardUser } from '../components/cards/cardUser';
+import { PieChart } from '../components/pieChart';
 import NavLink from './nav-link';
 
 const { Title, Link } = Typography;
@@ -17,7 +19,7 @@ export default function Home() {
           <Card
             style={{
               display: 'flex',
-              width: 290,
+              width: 350,
               alignItems: 'center',
               justifyContent: 'center',
             }}
@@ -33,7 +35,7 @@ export default function Home() {
           <Card
             style={{
               display: 'flex',
-              width: 290,
+              width: 350,
               alignItems: 'center',
               justifyContent: 'center',
             }}
@@ -49,7 +51,7 @@ export default function Home() {
           <Card
             style={{
               display: 'flex',
-              width: 290,
+              width: 350,
               alignItems: 'center',
               justifyContent: 'center',
             }}
@@ -65,7 +67,7 @@ export default function Home() {
           <Card
             style={{
               display: 'flex',
-              width: 290,
+              width: 350,
               alignItems: 'center',
               justifyContent: 'center',
             }}
@@ -79,8 +81,9 @@ export default function Home() {
         </Col>
 
         <Col style={{ padding: 10 }}>
-          <Card style={{ width: 580, height: 500 }}>
+          <Card style={{ width: 700, height: 500 }}>
             <Title level={4}>Ativos | Status | Saúde</Title>
+            <BarChart />
             <NavLink href="/assets">
               <Link>ver detalhes</Link>
             </NavLink>
@@ -88,8 +91,11 @@ export default function Home() {
         </Col>
 
         <Col style={{ padding: 10 }}>
-          <Card style={{ width: 580, height: 500 }}>
+          <Card style={{ width: 700, height: 500 }}>
             <Title level={4}>Ativos | Métricas | Especificações</Title>
+            <div style={{ marginLeft: '11rem' }}>
+              <PieChart />
+            </div>
             <NavLink href="/assets">
               <Link>ver detalhes</Link>
             </NavLink>
