@@ -8,6 +8,8 @@
      <img src="https://img.shields.io/twitter/follow/biantris_?style=social&logo=twitter"
       alt="follow on Twitter">
   </a>
+  
+  ![image](https://user-images.githubusercontent.com/65451957/206830693-88db2615-42fe-4305-b51c-2deeb9f4a510.png)
 
 </div>
 
