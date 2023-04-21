@@ -9,7 +9,7 @@
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
 
-"@ant-design/cssinjs@^1.9.0":
+"@ant-design/cssinjs@^1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@ant-design/cssinjs/-/cssinjs-1.9.1.tgz#cc2e602afab14c795af20fd22b3f9d5ccf304d8a"
   integrity sha512-CZt1vCMs/sY7RoacYuIkZwQmb8Bhp99ReNNE9Y8lnUzik8fmCdKAQA7ecvVOFwmNFdcBHga7ye/XIRrsbkiqWw==
@@ -415,13 +415,13 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^5.4.3:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-5.4.3.tgz#d2aa95efcf161ed51f76d982c28b01fc58f2828c"
-  integrity sha512-6o+WYoaazWSGP8YmPweMi3BEY2y3oMsPxJgQ0gkbhHhgJmCoz6AnyNqWwycEqaO/Yo7caLrm8BrZdMFYUkEjfQ==
+antd@^5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-5.4.4.tgz#d775d09fb2d7beb1334b83e7771bc0116ab8ff16"
+  integrity sha512-+IJdra4lhqnsGHyOCyaoZkv3MMheHVORBKC57GzRYMld8Rbtymstosx5vSw7ARuY96REkg+enkJQR9qgxSysxA==
   dependencies:
     "@ant-design/colors" "^7.0.0"
-    "@ant-design/cssinjs" "^1.9.0"
+    "@ant-design/cssinjs" "^1.9.1"
     "@ant-design/icons" "^5.0.0"
     "@ant-design/react-slick" "~1.0.0"
     "@babel/runtime" "^7.18.3"
