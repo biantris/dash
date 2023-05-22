@@ -21,7 +21,7 @@
     "@types/react-dom": "18.2.4",
     "antd": "^5.5.0",
     "chart.js": "^4.3.0",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
     "react": "18.2.0",
