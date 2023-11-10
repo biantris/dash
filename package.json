@@ -22,7 +22,7 @@
     "antd": "^5.11.1",
     "chart.js": "^4.4.0",
     "eslint": "8.53.0",
-    "eslint-config-next": "14.0.1",
+    "eslint-config-next": "14.0.2",
     "next": "14.0.2",
     "react": "18.2.0",
     "react-chartjs-2": "^5.2.0",
