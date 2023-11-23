@@ -14,10 +14,10 @@
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
 
-"@ant-design/cssinjs@^1.17.2":
-  version "1.17.2"
-  resolved "https://registry.yarnpkg.com/@ant-design/cssinjs/-/cssinjs-1.17.2.tgz#08e939cbe60e9e0e0f3f03cd53a52e4a7623ed1f"
-  integrity sha512-vu7lnfEx4Mf8MPzZxn506Zen3Nt4fRr2uutwvdCuTCN5IiU0lDdQ0tiJ24/rmB8+pefwjluYsbyzbQSbgfJy+A==
+"@ant-design/cssinjs@^1.17.5":
+  version "1.17.5"
+  resolved "https://registry.yarnpkg.com/@ant-design/cssinjs/-/cssinjs-1.17.5.tgz#be5bbfbf4c857e7df6e3650c9bccf7e527da7ef2"
+  integrity sha512-Ed2rruHMxZTVYGPec6QBZkrh00Df5K1FAufmBpONai5iGYxoxIkg1sRD8YdCw0NvPRAa4r1nJP5LbwICGHzGiQ==
   dependencies:
     "@babel/runtime" "^7.11.1"
     "@emotion/hash" "^0.8.0"
@@ -438,13 +438,13 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^5.11.2:
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-5.11.2.tgz#5db25aab6658715de36ea36ab840891a974a71de"
-  integrity sha512-7/yqmfXpShHH0MJQOgv3vX9PUFwctyBm/G5L0i/S4AQy20ON6ZZ2UkjmWxgwg3vq2CEHKyVGTHozpH9WwDizgw==
+antd@^5.11.3:
+  version "5.11.3"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-5.11.3.tgz#fe00b4609ab4a491e39407901e451ac5ebc391c5"
+  integrity sha512-+aXlytJCsp8Thag+MAMCDsDciwTl7w3bexHiojGgFOaSJPuIktN5yrLb9GCLar3fkTyGVAaxnkJm4JLGbAz3Xg==
   dependencies:
     "@ant-design/colors" "^7.0.0"
-    "@ant-design/cssinjs" "^1.17.2"
+    "@ant-design/cssinjs" "^1.17.5"
     "@ant-design/icons" "^5.2.6"
     "@ant-design/react-slick" "~1.0.2"
     "@babel/runtime" "^7.18.3"
@@ -464,7 +464,7 @@ antd@^5.11.2:
     rc-drawer "~6.5.2"
     rc-dropdown "~4.1.0"
     rc-field-form "~1.40.0"
-    rc-image "~7.3.2"
+    rc-image "~7.5.0"
     rc-input "~1.3.6"
     rc-input-number "~8.4.0"
     rc-mentions "~2.9.1"
@@ -2160,10 +2160,10 @@ rc-field-form@~1.40.0:
     async-validator "^4.1.0"
     rc-util "^5.32.2"
 
-rc-image@~7.3.2:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/rc-image/-/rc-image-7.3.2.tgz#fd92ab9994552d4f42638af0810039d34ad32dba"
-  integrity sha512-ICEF6SWv9YKhDXxy1vrXcmf0TVvEcQWIww5Yg+f+mn7e4oGX7FNP4+FExwMjNO5UHBEuWrigbGhlCgI6yZZ1jg==
+rc-image@~7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/rc-image/-/rc-image-7.5.0.tgz#ace5000dbf0f5e5ef65549f094466a7570ae3281"
+  integrity sha512-GVR/GX8MF/tC2nZ913heGCa/99FU4UkMjXXOj55gY8vF6yjPoZ21MusH2ZG2Y/mNMM1Cnkujp1kRdAzR7/KYTg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@rc-component/portal" "^1.0.2"
