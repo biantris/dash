@@ -445,10 +445,10 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^5.12.7:
-  version "5.12.7"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-5.12.7.tgz#4eaf82044a12c23fc045fecd0cc0e60c06882ab1"
-  integrity sha512-+SnWLO0kwXFnP15PAzvczZG3/yGu1PoYJa1mcYajqi248gaFA6HjY0s/kXVyXEIzY8dO3MT+RenYweU+s47Fwg==
+antd@^5.12.8:
+  version "5.12.8"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-5.12.8.tgz#94fea825e9bae535af7adf70417fa1f0dadc4c98"
+  integrity sha512-R2CRcB+aaVZurb3J0IKpBRWq5kW4CLcSqDF58/QBsqYdzK7XjSvM8+eF3rWVRUDbSJfGmyW7I80ywNRYpW1+vA==
   dependencies:
     "@ant-design/colors" "^7.0.2"
     "@ant-design/cssinjs" "^1.18.2"
