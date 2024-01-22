@@ -307,10 +307,10 @@
     classnames "^2.3.2"
     rc-util "^5.24.4"
 
-"@rc-component/tour@~1.12.1":
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/@rc-component/tour/-/tour-1.12.1.tgz#961fb20da494ae7d0cb8800b58601508901cc89f"
-  integrity sha512-P2pvSN+rImacOoTuT4NZ+tdjJmxoi6FZ9w++7GnYK6hVeU8qD+iLnDHkgtE7tuvpZxIRS3dPF5O2ykupHx9E/g==
+"@rc-component/tour@~1.12.2":
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/@rc-component/tour/-/tour-1.12.3.tgz#ede2ad9272126a2ea1429a6655ed09f4d065fbc9"
+  integrity sha512-U4mf1FiUxGCwrX4ed8op77Y8VKur+8Y/61ylxtqGbcSoh1EBC7bWd/DkLu0ClTUrKZInqEi1FL7YgFtnT90vHA==
   dependencies:
     "@babel/runtime" "^7.18.0"
     "@rc-component/portal" "^1.0.0-9"
@@ -472,10 +472,10 @@ ansi-styles@^6.1.0:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.2.1.tgz#0e62320cf99c21afff3b3012192546aacbfb05c5"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
-antd@^5.13.1:
-  version "5.13.1"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-5.13.1.tgz#098fd8495a89bbd1f6cba493c56e468fd9741360"
-  integrity sha512-/qAPsr6UyJPSFZQD9G7kW98GelH2Bajli+1q7CRW4IinYQ0R0UVJckFX11emByhiU4Jd4WNH/hOO+fZtp0eVDA==
+antd@^5.13.2:
+  version "5.13.2"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-5.13.2.tgz#a7e79b63cb9c7b0c233a00f5a199d5ca578c500e"
+  integrity sha512-P+N8gc0NOPy2WqJj/57Ey3dZUmb7nEUwAM+CIJaR5SOEjZnhEtMGRJSt+3lnhJ3MNRR39aR6NYkRVp2mYfphiA==
   dependencies:
     "@ant-design/colors" "^7.0.2"
     "@ant-design/cssinjs" "^1.18.2"
@@ -484,7 +484,7 @@ antd@^5.13.1:
     "@ctrl/tinycolor" "^3.6.1"
     "@rc-component/color-picker" "~1.5.1"
     "@rc-component/mutate-observer" "^1.1.0"
-    "@rc-component/tour" "~1.12.1"
+    "@rc-component/tour" "~1.12.2"
     "@rc-component/trigger" "^1.18.2"
     classnames "^2.5.1"
     copy-to-clipboard "^3.3.3"
