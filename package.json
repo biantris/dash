@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "husky": "^9.0.10",
-    "prettier": "^3.2.4"
+    "prettier": "^3.2.5"
   }
 }
