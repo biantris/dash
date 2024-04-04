@@ -18,7 +18,7 @@
   "dependencies": {
     "@types/node": "20.12.3",
     "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.23",
+    "@types/react-dom": "18.2.24",
     "antd": "^5.16.0",
     "chart.js": "^4.4.2",
     "eslint": "8.57.0",
