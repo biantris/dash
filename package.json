@@ -19,7 +19,7 @@
     "@types/node": "20.12.5",
     "@types/react": "18.2.74",
     "@types/react-dom": "18.2.24",
-    "antd": "^5.16.0",
+    "antd": "^5.16.1",
     "chart.js": "^4.4.2",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.4",
