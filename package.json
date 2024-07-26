@@ -30,7 +30,7 @@
     "typescript": "5.4.5"
   },
   "devDependencies": {
-    "husky": "^9.0.11",
+    "husky": "^9.1.2",
     "prettier": "^3.2.5"
   }
 }
